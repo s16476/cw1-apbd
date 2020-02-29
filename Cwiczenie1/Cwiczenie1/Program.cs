@@ -11,7 +11,7 @@ namespace Cwiczenie1
         //string z małej
         static async Task Main(string[] args)
         {
-            var url = args.Length > 0 ? args[0] : "https://www.pjatk.edu.pl";
+            var url = args.Length > 0 ? args[0] : "https://www.pja.edu.pl";
             var client = new HttpClient();
             var result = await client.GetAsync(url);
 
@@ -29,7 +29,7 @@ namespace Cwiczenie1
 
             }
 
-            Console.WriteLine("Hello World!");
+
         }
     }
 }
