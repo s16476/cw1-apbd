@@ -26,6 +26,7 @@ namespace Cwiczenie1
                 {
                     Console.WriteLine(m.ToString());
                 }
+
             }
         }
     }
